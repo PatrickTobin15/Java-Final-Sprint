@@ -1,0 +1,208 @@
+Apr 21, 2026 2:19:35 P.M. com.gym.util.AppLogger getLogger
+INFO: === Gym Management System Started ===
+Apr 21, 2026 2:19:35 P.M. com.gym.ui.Main main
+INFO: Application started.
+Apr 21, 2026 2:20:10 P.M. com.gym.util.DatabaseConnection getConnection
+SEVERE: Failed to connect to database: FATAL: database "gym_db" does not exist
+Apr 21, 2026 2:20:10 P.M. com.gym.dao.UserDAO findByUsername
+SEVERE: Error finding user: FATAL: database "gym_db" does not exist
+Apr 21, 2026 2:20:10 P.M. com.gym.util.DatabaseConnection getConnection
+SEVERE: Failed to connect to database: FATAL: database "gym_db" does not exist
+Apr 21, 2026 2:20:10 P.M. com.gym.dao.UserDAO registerUser
+SEVERE: Error registering user: FATAL: database "gym_db" does not exist
+Apr 21, 2026 2:52:42 P.M. com.gym.util.AppLogger getLogger
+INFO: === Gym Management System Started ===
+Apr 21, 2026 2:52:42 P.M. com.gym.ui.Main main
+INFO: Application started.
+Apr 21, 2026 2:53:10 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 2:53:10 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 2:53:10 P.M. com.gym.dao.UserDAO registerUser
+INFO: Registered user: Patrick
+Apr 21, 2026 2:53:10 P.M. com.gym.service.UserService register
+INFO: User registered successfully: Patrick as Trainer
+Apr 21, 2026 2:53:17 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 2:53:17 P.M. com.gym.service.UserService login
+INFO: User logged in: Patrick
+Apr 21, 2026 2:55:26 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 2:55:26 P.M. com.gym.dao.WorkoutClassDAO addClass
+INFO: Workout class added: Yoga
+Apr 21, 2026 2:55:26 P.M. com.gym.service.WorkoutClassService addClass
+INFO: Trainer 4 added class: Yoga
+Apr 21, 2026 2:55:45 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 2:56:19 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 2:56:19 P.M. com.gym.dao.MembershipDAO addMembership
+INFO: Membership added for user ID: 4
+Apr 21, 2026 2:56:19 P.M. com.gym.service.MembershipService purchaseMembership
+INFO: Membership purchased by user ID: 4 | Type: Monthly
+Apr 21, 2026 2:56:28 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 2:56:42 P.M. com.gym.ui.TrainerMenu show
+INFO: Trainer logged out: Patrick
+Apr 21, 2026 3:01:01 P.M. com.gym.util.AppLogger getLogger
+INFO: === Gym Management System Started ===
+Apr 21, 2026 3:01:01 P.M. com.gym.ui.Main main
+INFO: Application started.
+Apr 21, 2026 3:01:26 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:01:26 P.M. com.gym.service.UserService register
+WARNING: Registration failed - username taken: Patrick
+Apr 21, 2026 3:01:46 P.M. com.gym.util.AppLogger getLogger
+INFO: === Gym Management System Started ===
+Apr 21, 2026 3:01:46 P.M. com.gym.ui.Main main
+INFO: Application started.
+Apr 21, 2026 3:02:29 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:02:29 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:02:29 P.M. com.gym.dao.UserDAO registerUser
+INFO: Registered user: Patrick1
+Apr 21, 2026 3:02:29 P.M. com.gym.service.UserService register
+INFO: User registered successfully: Patrick1 as Admin
+Apr 21, 2026 3:03:37 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:03:37 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:03:37 P.M. com.gym.dao.UserDAO registerUser
+INFO: Registered user: Patrick2
+Apr 21, 2026 3:03:37 P.M. com.gym.service.UserService register
+INFO: User registered successfully: Patrick2 as Member
+Apr 21, 2026 3:03:52 P.M. com.gym.util.AppLogger getLogger
+INFO: === Gym Management System Started ===
+Apr 21, 2026 3:03:52 P.M. com.gym.ui.Main main
+INFO: Application started.
+Apr 21, 2026 3:04:00 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:04:00 P.M. com.gym.service.UserService login
+INFO: User logged in: Patrick
+Apr 21, 2026 3:04:02 P.M. com.gym.ui.TrainerMenu show
+INFO: Trainer logged out: Patrick
+Apr 21, 2026 3:04:10 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:04:10 P.M. com.gym.service.UserService login
+WARNING: Login failed - wrong password for: Patrick
+Apr 21, 2026 3:04:34 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:04:34 P.M. com.gym.service.UserService login
+WARNING: Login failed - wrong password for: Patrick
+Apr 21, 2026 3:04:43 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:04:43 P.M. com.gym.service.UserService login
+WARNING: Login failed - user not found: ptob
+Apr 21, 2026 3:05:00 P.M. com.gym.util.AppLogger getLogger
+INFO: === Gym Management System Started ===
+Apr 21, 2026 3:05:00 P.M. com.gym.ui.Main main
+INFO: Application started.
+Apr 21, 2026 3:05:29 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:05:29 P.M. com.gym.service.UserService register
+WARNING: Registration failed - username taken: Patrick
+Apr 21, 2026 3:05:48 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:05:48 P.M. com.gym.service.UserService register
+WARNING: Registration failed - username taken: Patrick
+Apr 21, 2026 3:06:31 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:06:31 P.M. com.gym.service.UserService register
+WARNING: Registration failed - username taken: Patrick1
+Apr 21, 2026 3:06:44 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:06:44 P.M. com.gym.service.UserService login
+INFO: User logged in: Patrick1
+Apr 21, 2026 3:06:57 P.M. com.gym.ui.AdminMenu show
+INFO: Admin logged out: Patrick1
+Apr 21, 2026 3:07:02 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:07:02 P.M. com.gym.service.UserService login
+WARNING: Login failed - user not found: Ptob
+Apr 21, 2026 3:07:14 P.M. com.gym.util.AppLogger getLogger
+INFO: === Gym Management System Started ===
+Apr 21, 2026 3:07:14 P.M. com.gym.ui.Main main
+INFO: Application started.
+Apr 21, 2026 3:07:19 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:07:19 P.M. com.gym.service.UserService login
+INFO: User logged in: Patrick
+Apr 21, 2026 3:07:21 P.M. com.gym.ui.TrainerMenu show
+INFO: Trainer logged out: Patrick
+Apr 21, 2026 3:07:25 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:07:25 P.M. com.gym.service.UserService login
+WARNING: Login failed - user not found: Ptob
+Apr 21, 2026 3:07:46 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:07:46 P.M. com.gym.service.UserService login
+WARNING: Login failed - user not found: Ptob
+Apr 21, 2026 3:07:58 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:07:58 P.M. com.gym.service.UserService login
+WARNING: Login failed - user not found: ptob
+Apr 21, 2026 3:08:04 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:08:04 P.M. com.gym.service.UserService login
+WARNING: Login failed - user not found: ptob
+Apr 21, 2026 3:08:15 P.M. com.gym.util.AppLogger getLogger
+INFO: === Gym Management System Started ===
+Apr 21, 2026 3:08:15 P.M. com.gym.ui.Main main
+INFO: Application started.
+Apr 21, 2026 3:08:20 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:08:20 P.M. com.gym.service.UserService login
+INFO: User logged in: Patrick
+Apr 21, 2026 3:08:22 P.M. com.gym.ui.TrainerMenu show
+INFO: Trainer logged out: Patrick
+Apr 21, 2026 3:08:27 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:08:27 P.M. com.gym.service.UserService login
+WARNING: Login failed - user not found: ptob
+Apr 21, 2026 3:08:36 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:08:36 P.M. com.gym.service.UserService login
+WARNING: Login failed - user not found: Ptob
+Apr 21, 2026 3:08:46 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:08:46 P.M. com.gym.service.UserService login
+WARNING: Login failed - user not found: ptob
+Apr 21, 2026 3:08:53 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:08:53 P.M. com.gym.service.UserService login
+WARNING: Login failed - user not found: ptob
+Apr 21, 2026 3:09:20 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:09:20 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:09:21 P.M. com.gym.dao.UserDAO registerUser
+INFO: Registered user: Ptob
+Apr 21, 2026 3:09:21 P.M. com.gym.service.UserService register
+INFO: User registered successfully: Ptob as Member
+Apr 21, 2026 3:09:33 P.M. com.gym.util.AppLogger getLogger
+INFO: === Gym Management System Started ===
+Apr 21, 2026 3:09:33 P.M. com.gym.ui.Main main
+INFO: Application started.
+Apr 21, 2026 3:09:39 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:09:40 P.M. com.gym.service.UserService login
+INFO: User logged in: Ptob
+Apr 21, 2026 3:09:41 P.M. com.gym.ui.MemberMenu show
+INFO: Member logged out: Ptob
+Apr 21, 2026 3:09:45 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:09:45 P.M. com.gym.service.UserService login
+INFO: User logged in: Patrick
+Apr 21, 2026 3:09:45 P.M. com.gym.ui.TrainerMenu show
+INFO: Trainer logged out: Patrick
+Apr 21, 2026 3:09:56 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:09:56 P.M. com.gym.service.UserService login
+INFO: User logged in: Patrick1
+Apr 21, 2026 3:13:57 P.M. com.gym.ui.AdminMenu show
+INFO: Admin logged out: Patrick1
+Apr 21, 2026 3:14:39 P.M. com.gym.util.DatabaseConnection getConnection
+INFO: Database connection established.
+Apr 21, 2026 3:14:39 P.M. com.gym.service.UserService register
+WARNING: Registration failed - username taken: Patrick
